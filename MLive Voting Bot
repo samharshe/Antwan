@@ -41,6 +41,8 @@ setInterval(function () {
     } catch (e) { }
 }, 1000);
 setInterval(function () {
+    var rand = 1000*Math.random();
+    var lag = rand + 5000;
     select();
     try { back_btn.click(); } catch (e) { }
-}, 1000, 1000);
+}, lag, lag);
