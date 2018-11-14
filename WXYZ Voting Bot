@@ -5,8 +5,8 @@ document.onkeypress = function(e) {
     }
 };
 function select() {
-    radio = document.getElementById('PDI_answer46541214');
-    vote_btn = document.getElementById('pd-vote-button10136808');
+    radio = document.getElementById('PDI_answer46677651');
+    vote_btn = document.getElementById('pd-vote-button10162889');
     back_btn = document.querySelector('.pds-return-poll');
 }
 
